@@ -73,7 +73,7 @@ WidgetRTC rtc;
   https://www.youtube.com/watch?v=RAgLE-hV5cU
 
 */
-char auth[] = "1234567890abcdefg"; //Blynk Project Auth Code
+char auth[] = "1234567890abcdefg"; //Blynk Project Auth Code. PUT YOUR OWN Auth Code HERE
 
 //song stuff
 int speed = 90; //higher value, slower notes
