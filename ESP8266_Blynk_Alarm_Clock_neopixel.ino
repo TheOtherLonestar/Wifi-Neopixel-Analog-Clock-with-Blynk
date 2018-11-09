@@ -156,6 +156,7 @@ void setup()
   
   pinMode(snooze, INPUT_PULLUP);
   
+  //test each LED on startup
   for (int i = 12; i <= 28; i++) {
     int j = constrain(i-12, 0,11);//constrain hour test to 0-11 for 12 pixels
     strip.setPixelColor(i, 100, 100, 100);
@@ -165,10 +166,12 @@ void setup()
     strip.clear();
     
   }
+  //show 12 and 6 on LEDs to line them up
   strip.setPixelColor(0, 255, 0, 0);
   strip.setPixelColor(12, 255, 0, 0);
   strip.setPixelColor(20, 0, 255, 0);
   strip.show();
+  //play the alarm to test the speaker
   Alarm();
   delay(500);
   strip.clear();
