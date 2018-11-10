@@ -38,7 +38,6 @@
 #include "Adafruit_NeoPixel.h"
 #define BLYNK_PRINT Serial
 #include"pitches.h"
-#include "secrets.h"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <TimeLib.h>
